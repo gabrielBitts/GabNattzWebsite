@@ -1,7 +1,7 @@
 import Header from '../components/header'
 
 function Home() {
-    return(Header())
+    return(<Header/>)
 }
 
 export default Home

@@ -1,15 +1,19 @@
 import Image from 'next/image'
+import Header from '../../components/header'
 
 function Twitch() {
     return (
+        <div>
+            <div>
+                <Header/>
+            </div>
             <div class="card_container">
                 <div class="cards">
                     <div class="cover">
                         <div class="cover_front">
-                            <Image src="/covers/diablo-2.jpg" 
-                            alt="Capa Diablo 2"
-                            layout="fill"
-                            />
+                            <Image src="/covers/diablo-2.jpg"
+                                alt="Capa Diablo 2"
+                                layout="fill" />
                         </div>
                         <div class="cover_back">
                             <h1 class="game_name">Diablo II</h1>
@@ -21,6 +25,8 @@ function Twitch() {
                     </div>
                 </div>
             </div>
+
+        </div>
     )
 }
 
