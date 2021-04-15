@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .footer {
+    font-family: 'Opan Sans', sans-serif;
+    pointer-events: none;
+    user-select: none;
     height: 50px;
     background-color: #232136;
     width: 100%;
