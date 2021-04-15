@@ -5,40 +5,38 @@ import React from 'react'
 export class Header extends React.Component {
     render() {
         return (
-            <header class="principal-menu">
-                <main>
-                    <nav class="header-1">
-                        <div class="logo">
+            <header className="principal-menu">
+                    <nav className="header-1">
+                        <div className="logo">
                             <Link href="/">
                                 <a>
-                                    <Image src="/logo.png" alt="Logomarca"
+                                    <Image src="/logo.svg" alt="Logomarca"
                                     height="65"
                                     width="80"
                                     />
                                 </a>
                             </Link>
                         </div>
-                        <div class="page-indexes">
+                        <div className="page-indexes">
                             <ul>
                                 <li>
                                     <Link href="/">
-                                        <a>HOME</a>
+                                        <a data-text="HOME">HOME</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/twitch">
-                                        <a>TWITCH</a>
+                                        <a data-text="TWITCH">TWITCH</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/contato">
-                                        <a>CONTATO</a>
+                                        <a data-text="SOBRE">SOBRE</a>
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                     </nav>
-                </main>
             </header>
         )
     }

@@ -1,7 +1,13 @@
 import Header from '../components/header'
+import Footer from '../components/footer'
 
 function Home() {
-    return(<Header/>)
+    return (
+        <div>
+            <Header/>
+            <Footer/>
+        </div>
+    )
 }
 
 export default Home

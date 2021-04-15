@@ -1,12 +1,16 @@
 import Header from '../../components/header' 
 import Grid from '../../components/card_grid' 
+import TwitchFrame from '../../components/twitch_frame'
+import Footer from '../../components/footer'
 
 function Twitch() {
     return(
-    <body>
+    <div>
         <Header/>
+        <TwitchFrame />
         <Grid />
-    </body>)
+        <Footer />
+    </div>)
 }
 
 export default Twitch

@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Diablo";
+  src: url("/font/DIABLO_L.ttf") format('truetype');
+}
+
+@media screen and (max-width: 500px) {
+
+}
+
 .card_container {
   padding: 2em;
     background-color: transparent;
@@ -33,6 +42,7 @@
   }
 
 .cover_back {
+  font-family: "Diablo";
     border-radius: 5%;
     color: transparent;
 }

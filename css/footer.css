@@ -1,0 +1,25 @@
+.footer {
+    height: 50px;
+    background-color: #232136;
+    width: 100%;
+}
+
+.copyright {
+    color: oldlace;
+    font-size: 15px;
+}
+
+.name {
+    padding-left: 5px;
+    color: oldlace;
+    font-size: 15px;
+    opacity: .7;
+}
+
+.info{
+    margin: 0 auto;
+    max-width: 50%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
