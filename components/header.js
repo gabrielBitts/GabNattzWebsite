@@ -21,17 +21,17 @@ export class Header extends React.Component {
                             <ul>
                                 <li>
                                     <Link href="/">
-                                        <a data-text="HOME">HOME</a>
+                                        <a className="navigation" data-text="HOME">HOME</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/twitch">
-                                        <a data-text="TWITCH">TWITCH</a>
+                                        <a className="navigation" data-text="TWITCH">TWITCH</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/contato">
-                                        <a data-text="SOBRE">SOBRE</a>
+                                        <a className="navigation" data-text="SOBRE">SOBRE</a>
                                     </Link>
                                 </li>
                             </ul>

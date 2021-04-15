@@ -38,7 +38,7 @@
     margin-left: 30px;
 }
 
-a{
+.navigation{
     text-decoration: none;
     color: oldlace;
 }
@@ -52,7 +52,7 @@ a{
     height: 100%;
 }
 
-a:hover {
+.navigation:hover {
 position: relative;
 color: oldlace;
 animation: glitch-skew 2s infinite linear alternate-reverse;
