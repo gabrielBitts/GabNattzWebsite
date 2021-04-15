@@ -6,9 +6,11 @@ import Footer from '../../components/footer'
 function Twitch() {
     return(
     <div>
-        <Header/>
-        <TwitchFrame />
-        <Grid />
+        <Header />            
+            <div className="content">   
+                <TwitchFrame />
+                <Grid />
+            </div>
         <Footer />
     </div>)
 }
