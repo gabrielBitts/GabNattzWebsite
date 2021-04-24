@@ -4,7 +4,7 @@ body {
 
 .content {
   width: 100%;
-  animation: transitionIn 0.75s;
+  animation: transitionIn 1s;
 }
 
 @keyframes transitionIn {

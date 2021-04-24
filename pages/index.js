@@ -6,7 +6,9 @@ function Home() {
   return (
     <div>
       <Header />
-      <Medias />
+      <div className="content">
+        <Medias />
+      </div>
       <Footer />
     </div>
   );
