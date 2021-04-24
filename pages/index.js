@@ -1,13 +1,15 @@
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from "../components/header";
+import Footer from "../components/footer";
+import Medias from "../components/social_media";
 
 function Home() {
-    return (
-        <div>
-            <Header/>
-            <Footer/>
-        </div>
-    )
+  return (
+    <div>
+      <Header />
+      <Medias />
+      <Footer />
+    </div>
+  );
 }
 
-export default Home
+export default Home;
