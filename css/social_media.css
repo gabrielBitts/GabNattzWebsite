@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.media_info {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 16px;
+  font-weight: 600;
+  font-size: 30px;
+  color: #232136;
+  border-top: 1px solid #d3d1e3;
+  height: 50px;
+}
+
+.medias_container {
+  height: 200px;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 0.3fr));
+  justify-content: center;
+  gap: 20px;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.card_image {
+  position: relative;
+  width: 100px;
+  height: auto;
+}
+
+.social_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_box {
+  align-items: center;
+  display: contents;
+}

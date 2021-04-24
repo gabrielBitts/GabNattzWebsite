@@ -1,54 +1,51 @@
 @font-face {
   font-family: "Diablo";
-  src: url("/font/DIABLO_L.ttf") format('truetype');
-}
-
-@media screen and (max-width: 500px) {
-
+  src: url("/font/DIABLO_L.ttf") format("truetype");
 }
 
 .card_container {
   padding: 2em;
-    background-color: transparent;
-    max-width: 900px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, .3fr));
-    justify-content: center;
-    gap: 10px;
-    align-content: center;
-    margin: 0 auto;
+  background-color: transparent;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 0.3fr));
+  justify-content: center;
+  gap: 10px;
+  align-content: center;
+  margin: 0 auto;
 }
 
 .cards {
-    position: relative;
-    width: 250px;
-    height: 361px;
-    text-align: center;
-    margin: 0 auto;
+  position: relative;
+  width: 250px;
+  height: 361px;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.cover_front:hover, .cover_back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
+.cover_front:hover,
+.cover_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 
-  .cover_back:hover {
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    background:rgba(0,0,0,0.5);
-    opacity: 1;  
-    color: white;
-  }
+.cover_back:hover {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  color: white;
+}
 
 .cover_back {
   font-family: "Diablo";
-    border-radius: 5%;
-    color: transparent;
+  border-radius: 5%;
+  color: transparent;
 }
 
 .cover_front img {
-    border-radius: 5%;
-    width: 100%;
-    height: auto;
+  border-radius: 5%;
+  width: 100%;
+  height: auto;
 }
