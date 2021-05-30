@@ -1,8 +1,15 @@
-@font-face {
-  font-family: "Diablo";
-  src: url("/font/DIABLO_L.ttf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
+.jogos-zerados {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  padding: 25px 0 25px 0;
+  border-bottom: 1px solid #d3d1e3;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
 .card_container {
   padding: 2em;
   background-color: transparent;
@@ -15,12 +22,19 @@
   margin: 0 auto;
 }
 
+.card {
+  align-self: center;
+}
+
 .cards {
   position: relative;
   width: 250px;
-  height: 361px;
+  height: auto;
   text-align: center;
   margin: 0 auto;
+  justify-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .cover_front:hover,
@@ -31,7 +45,7 @@
 }
 
 .cover_back:hover {
-  transition: all 0.5s;
+  transition: .5s ease;
   -webkit-transition: all 0.5s;
   background: rgba(0, 0, 0, 0.5);
   opacity: 1;
@@ -39,13 +53,33 @@
 }
 
 .cover_back {
-  font-family: "Diablo";
-  border-radius: 5%;
-  color: transparent;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.texts {
+  align-self: center;
+  margin: 0 auto;
 }
 
 .cover_front img {
-  border-radius: 5%;
+  display: block;
   width: 100%;
   height: auto;
+}
+
+.game_name {
+  font-size: 26px;
+}
+
+.company, .platform, .year, .data_zeramento, .tempo {
+  padding: 5px 0 5px 0;
+  margin: 0;
 }
