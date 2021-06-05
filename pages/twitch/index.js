@@ -19,7 +19,6 @@ function Twitch({games}) {
 export async function getStaticProps() {
   const result = await fetch("https://gamelistapi.herokuapp.com/api/v1/game")
   const games = await result.json()
-  console.log(games)
   return {
     props: { games }
   }
