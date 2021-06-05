@@ -8,7 +8,7 @@ export class Twitch extends React.Component {
           <div className="twitch_frame">
             <iframe
               className="iframe"
-              src="https://player.twitch.tv/?channel=gabnattz&parent=localhost&parent=gabnattz.com.br&allowfullscreen=false"
+              src="https://player.twitch.tv/?channel=gabnattz&parent=gabnattz.com.br&allowfullscreen=false"
             ></iframe>
           </div>
         </div>
