@@ -47,7 +47,7 @@
 .cover_back:hover {
   transition: .5s ease;
   -webkit-transition: all 0.5s;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
   opacity: 1;
   color: white;
 }
@@ -77,6 +77,8 @@
 
 .game_name {
   font-size: 26px;
+  padding: 5px;
+  margin: 0 auto;
 }
 
 .company, .platform, .year, .data_zeramento, .tempo {
