@@ -5,17 +5,17 @@
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 16px;
+  padding: 25px 0 25px 0;
   font-weight: 600;
   font-size: 30px;
   color: #232136;
   border-top: 1px solid #d3d1e3;
-  height: 50px;
-  text-decoration: wavy;
+  border-bottom: 1px solid #d3d1e3;
 }
 
 .medias_container {
-  height: 200px;
+  position: relative;
+  height: 150px;
   max-width: 900px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 0.3fr));
@@ -27,7 +27,7 @@
 
 .card_image {
   position: relative;
-  width: 100px;
+  width: 85px;
   height: auto;
 }
 
