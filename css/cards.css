@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: nes;
+  src: url("/font/nes.ttf");
+}
 
 .jogos-zerados {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 30px;
   text-align: center;
@@ -47,9 +50,8 @@
 .cover_back:hover {
   transition: .5s ease;
   -webkit-transition: all 0.5s;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.9);
   opacity: 1;
-  color: white;
 }
 
 .cover_back {
@@ -62,11 +64,15 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
+  display: flex;
 }
 
 .texts {
   align-self: center;
   margin: 0 auto;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 .cover_front img {
@@ -76,10 +82,14 @@
 }
 
 .game_name {
-  font-size: 26px;
+  font-family: nes;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  font-weight: lighter;
 }
 
 .company, .platform, .year, .data_zeramento, .tempo {
-  padding: 5px 0 5px 0;
+  padding: 2.5px 0 2.5px 0;
   margin: 0;
 }

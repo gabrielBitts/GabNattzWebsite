@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: nes;
+  src: url("/font/nes.ttf");
+}
 
 .footer {
   font-family: "Opan Sans", sans-serif;
@@ -16,9 +19,13 @@
 
 .name {
   padding-left: 5px;
+  padding-top: .3%;
   color: oldlace;
-  font-size: 15px;
+  font-size: 20px;
   opacity: 0.7;
+  font-family: nes;
+  font-weight: lighter;
+  align-self: center;
 }
 
 .info {
