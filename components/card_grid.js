@@ -2,6 +2,8 @@ import React from "react";
 
 export class Grid extends React.Component {
     render() {
+        const totalCards = this.props.games.map(game => {return(game)})
+        const cardList = totalCards.length
         const cards = this.props.games.map(game => {
             return (
             <Card filePath={game.coverImg} 
@@ -19,6 +21,9 @@ export class Grid extends React.Component {
             <div>
                 <div className="jogos-zerados">Jogos zerados</div>
                 <div id="grid_body">
+                    <div className="total-jogos">
+                        Total de jogos zerados = <strong className="qte-Cards">{cardList}</strong>
+                    </div>
                     <div className="card_container">
                         {cards}
                     </div>
