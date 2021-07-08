@@ -25,6 +25,14 @@
   margin: 0 auto;
 }
 
+.total-jogos {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 0 15px 0;
+}
+
 .card {
   align-self: center;
 }
