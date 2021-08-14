@@ -69,10 +69,10 @@ class Card extends React.Component {
                                     {
                                         this.props.dtZeramento
                                     }</p>
-                                <p className="tempo">
+                                {/* <p className="tempo">
                                     {
                                         this.props.tempo
-                                    }</p>
+                                    }</p> */}
                             </div>
                         </div>
                     </div>
